@@ -5,7 +5,7 @@ from send_mail import send_mail
 app = Flask(__name__)
 
 # Var declarations
- ENV = ''
+ENV = ''
 
 # Select Enviroment
 if ENV == 'dev':
